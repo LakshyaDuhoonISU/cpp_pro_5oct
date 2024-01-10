@@ -29,11 +29,11 @@ int main()
                 cout << n << " is not prime." << endl;
                 break;
             }
-            if (check == false)
-            {
-                cout << n << " is prime." << endl;
-                break;
-            }
+        if (check == false)
+        {
+            cout << n << " is prime." << endl;
+            break;
+        }
         }
     }
     return 0;
